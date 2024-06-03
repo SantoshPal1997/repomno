@@ -24,6 +24,7 @@ public class HTTPRequests {
 	@Test(priority = 1)
 	public void getUsers()
 	{
+		System.out.println("changes done");
 		given()
 		.when()
 			.get("https://reqres.in/api/users?page=2")
